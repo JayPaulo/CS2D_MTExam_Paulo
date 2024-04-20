@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+/* Background Image */
+.background {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(123, 64, 76, 0.75), rgba(54, 76, 245, 0.6));
+    background-size: cover;
+    background-position: center;
+}
+/* Nav-Bar Style */
+.nav {
+    width: 90%;
+    margin: auto;
+    padding: 25px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo { 
+    width: 500px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    color: antiquewhite;
+}
+
+/* Nav-Bar Items */
+.nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+.nav ul li a {
+    scroll-behavior: smooth;
+    text-decoration: none;
+    color: aliceblue;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+}
+.hero {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: aliceblue;
+}
+.hero p {
+    font-size: 15px;
+    margin: 20px auto;
+    font-weight: 250;
+    line-height: 25px;
+}
+.hero h1 {
+    font-size: 70px;
+    margin-top: 80px;
+}
+
+/* Section Styles */
+.skills, .achievements, .trainings {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 10px;
+    background-image: linear-gradient(rgba(36,96, 154, 0.75), rgba(172,73,95,0.6));
+}
+
+/* Aside Style */
+.skills aside, .achievements aside, .trainings aside {
+    width: 20%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Aside Image Style */
+.skills aside img, .achievements aside img, .trainings aside img {
+    width: 100%;
+    aspect-ratio: 3/4;
+    border-radius: 5px;
+
+/* Container Style */
+}
+.skills-container, .achievements-container, .trainings-container {
+    padding-top: 30px;
+    width: 70%;
+    align-items: center;
+}
+
+/* Section Title Style */
+.skills-container h1, .achievements-container h1, .trainings-container h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+}
+
+/* Section Images */
+.img-container img {
+    margin: 30px;
+    width: 250px;
+    aspect-ratio: 1/1;
+}
+
+/* Image Containers */
+.img-container {
+    backdrop-filter: blur(1px);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1px; 
+    padding: 10px;
+}
+
+.footer {
+    background-color: black;
+    color: antiquewhite;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+      
+}
